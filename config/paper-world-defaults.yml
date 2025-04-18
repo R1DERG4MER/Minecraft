@@ -15,7 +15,7 @@
 _version: 30
 anticheat:
   anti-xray:
-    enabled: false
+    enabled: true
     engine-mode: 1
     hidden-blocks:
     - copper_ore
@@ -280,9 +280,9 @@ maps:
   item-frame-cursor-update-interval: 10
 max-growth-height:
   bamboo:
-    max: 16
+    max: 19
     min: 11
-  cactus: 3
+  cactus: 4
   reeds: 3
 misc:
   disable-end-credits: false
@@ -306,7 +306,7 @@ tick-rates:
   container-update: 1
   dry-farmland: 1
   grass-spread: 1
-  mob-spawner: 1
+  mob-spawner: 15
   sensor:
     villager:
       secondarypoisensor: 40

@@ -1,0 +1,2 @@
+# If Coordinates is enabled or disabled by default when a new player join.
+DefaultValue: true
