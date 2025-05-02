@@ -73,11 +73,11 @@ world-settings:
     hanging-tick-frequency: 100
     growth:
       cactus-modifier: 100
-      cane-modifier: 3000
+      cane-modifier: 9999
       melon-modifier: 100
       mushroom-modifier: 100
       pumpkin-modifier: 100
-      sapling-modifier: 1000
+      sapling-modifier: 99999
       beetroot-modifier: 100
       carrot-modifier: 900000
       potato-modifier: 9000
