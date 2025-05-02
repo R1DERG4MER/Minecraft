@@ -769,27 +769,28 @@
       "minecraft:blaze": "2025-03-26 15:45:57 +0000",
       "minecraft:pillager": "2025-04-03 14:37:28 +0000",
       "minecraft:skeleton": "2025-03-23 07:56:01 +0000",
-      "minecraft:zombified_piglin": "2025-03-28 12:53:28 +0000",
-      "minecraft:wither_skeleton": "2025-03-26 15:50:47 +0000",
       "minecraft:ravager": "2025-04-03 14:48:06 +0000",
       "minecraft:ghast": "2025-03-30 08:05:32 +0000",
-      "minecraft:ender_dragon": "2025-03-30 13:19:17 +0000",
       "minecraft:hoglin": "2025-03-29 16:36:46 +0000",
-      "minecraft:shulker": "2025-04-01 16:49:55 +0000",
-      "minecraft:piglin": "2025-03-26 16:31:12 +0000",
       "minecraft:vindicator": "2025-04-03 14:46:15 +0000",
-      "minecraft:enderman": "2025-03-29 16:45:45 +0000",
-      "minecraft:silverfish": "2025-03-30 13:04:59 +0000",
       "minecraft:magma_cube": "2025-03-26 15:53:20 +0000",
-      "minecraft:endermite": "2025-04-06 09:17:01 +0000",
       "minecraft:spider": "2025-03-23 08:36:57 +0000",
       "minecraft:piglin_brute": "2025-04-06 14:09:51 +0000",
+      "minecraft:creeper": "2025-03-23 08:50:32 +0000",
+      "minecraft:evoker": "2025-04-06 08:17:46 +0000",
+      "minecraft:slime": "2025-05-02 09:57:44 +0000",
+      "minecraft:zombified_piglin": "2025-03-28 12:53:28 +0000",
+      "minecraft:wither_skeleton": "2025-03-26 15:50:47 +0000",
+      "minecraft:ender_dragon": "2025-03-30 13:19:17 +0000",
+      "minecraft:shulker": "2025-04-01 16:49:55 +0000",
+      "minecraft:piglin": "2025-03-26 16:31:12 +0000",
+      "minecraft:enderman": "2025-03-29 16:45:45 +0000",
+      "minecraft:silverfish": "2025-03-30 13:04:59 +0000",
+      "minecraft:endermite": "2025-04-06 09:17:01 +0000",
       "minecraft:vex": "2025-04-06 08:18:37 +0000",
       "minecraft:zombie": "2025-03-23 08:37:15 +0000",
-      "minecraft:creeper": "2025-03-23 08:50:32 +0000",
       "minecraft:drowned": "2025-03-30 09:43:06 +0000",
-      "minecraft:zombie_villager": "2025-03-23 08:24:33 +0000",
-      "minecraft:evoker": "2025-04-06 08:17:46 +0000"
+      "minecraft:zombie_villager": "2025-03-23 08:24:33 +0000"
     },
     "done": false
   },
@@ -4025,6 +4026,30 @@
   "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
     "criteria": {
       "has_copper_block": "2025-05-02 08:33:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-05-02 09:43:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-05-02 09:57:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-05-02 09:57:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2025-05-02 09:57:50 +0000"
     },
     "done": true
   },
