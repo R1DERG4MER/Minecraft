@@ -32,7 +32,7 @@ world-settings:
       display: 128
       other: 64
     ticks-per:
-      hopper-transfer: 8
+      hopper-transfer: 10
       hopper-check: 1
     hopper-amount: 1
     hopper-can-load-chunks: false
