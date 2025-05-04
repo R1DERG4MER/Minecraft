@@ -136,6 +136,8 @@ world-settings:
     view-distance: default
     simulation-distance: default
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 commands:
   log: true
   tab-complete: 0
