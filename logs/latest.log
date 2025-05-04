@@ -1,22 +1,22 @@
-[09:55:18] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:55:20] [ServerMain/INFO]: Loaded 1175 recipes
-[09:55:21] [ServerMain/INFO]: Loaded 1276 advancements
-[09:55:21] [Server thread/INFO]: Starting minecraft server version 1.20.6
-[09:55:21] [Server thread/INFO]: Loading properties
-[09:55:21] [Server thread/INFO]: This server is running Paper version git-Paper-23 (MC: 1.20.6) (Implementing API version 1.20.6-R0.1-SNAPSHOT) (Git: 44ee092)
-[09:55:22] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:55:22] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:55:23] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[13:11:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:11:02] [ServerMain/INFO]: Loaded 1175 recipes
+[13:11:03] [ServerMain/INFO]: Loaded 1276 advancements
+[13:11:03] [Server thread/INFO]: Starting minecraft server version 1.20.6
+[13:11:03] [Server thread/INFO]: Loading properties
+[13:11:03] [Server thread/INFO]: This server is running Paper version git-Paper-23 (MC: 1.20.6) (Implementing API version 1.20.6-R0.1-SNAPSHOT) (Git: 44ee092)
+[13:11:04] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:11:04] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:11:04] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[09:55:23] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[09:55:23] [Server thread/INFO]: Default game type: SURVIVAL
-[09:55:23] [Server thread/INFO]: Generating keypair
-[09:55:23] [Server thread/INFO]: Starting Minecraft server on *:25565
-[09:55:23] [Server thread/INFO]: Using epoll channel type
-[09:55:23] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[09:55:23] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[09:55:23] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/orebfuscator-plugin-5.5.2.jar' in 'plugins/.paper-remapped'
+[13:11:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[13:11:05] [Server thread/INFO]: Default game type: SURVIVAL
+[13:11:05] [Server thread/INFO]: Generating keypair
+[13:11:05] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:11:05] [Server thread/INFO]: Using epoll channel type
+[13:11:05] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[13:11:05] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[13:11:05] [Server thread/ERROR]: [ModernPluginLoadingStrategy] Could not load 'plugins/.paper-remapped/orebfuscator-plugin-5.5.2.jar' in 'plugins/.paper-remapped'
 org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins: [ProtocolLib]. Please download and install these plugins to run 'Orebfuscator'.
 	at io.papermc.paper.plugin.entrypoint.strategy.modern.ModernPluginLoadingStrategy.loadProviders(ModernPluginLoadingStrategy.java:82) ~[paper-1.20.6.jar:git-Paper-23]
 	at io.papermc.paper.plugin.storage.SimpleProviderStorage.enter(SimpleProviderStorage.java:38) ~[paper-1.20.6.jar:git-Paper-23]
@@ -26,1222 +26,126 @@ org.bukkit.plugin.UnknownDependencyException: Unknown/missing dependency plugins
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1140) ~[paper-1.20.6.jar:git-Paper-23]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326) ~[paper-1.20.6.jar:git-Paper-23]
 	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[09:55:23] [Server thread/INFO]: [Coordinates] Loading server plugin Coordinates v0.2.2
-[09:55:23] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.5.1
-[09:55:23] [Server thread/INFO]: [CleanPing] Loading server plugin CleanPing v1.6.1
-[09:55:23] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
-[09:55:23] [Server thread/INFO]: [TreeFella] Loading server plugin TreeFella v1.2
-[09:55:23] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:55:23] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:55:23] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:55:23] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[09:55:23] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:55:23] [Server thread/INFO]: Preparing level "world"
-[09:55:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:55:24] [Server thread/INFO]: Time elapsed: 3 ms
-[09:55:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:55:24] [Server thread/INFO]: Time elapsed: 1 ms
-[09:55:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:55:24] [Server thread/INFO]: Time elapsed: 0 ms
-[09:55:24] [Server thread/INFO]: [Coordinates] Enabling Coordinates v0.2.2
-[09:55:24] [Server thread/INFO]: [Coordinates] Coordinates plugin has been enabled
-[09:55:24] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.5.1
-[09:55:26] [Server thread/INFO]: [InfiniteVillagerTrades] Enabled InstantRestock!
-[09:55:26] [Server thread/INFO]: [CleanPing] Enabling CleanPing v1.6.1
-[09:55:26] [Server thread/INFO]: [CleanPing] 
+[13:11:05] [Server thread/INFO]: [Coordinates] Loading server plugin Coordinates v0.2.2
+[13:11:05] [Server thread/INFO]: [InstantRestock] Loading server plugin InstantRestock v2.5.1
+[13:11:05] [Server thread/INFO]: [CleanPing] Loading server plugin CleanPing v1.6.1
+[13:11:05] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[13:11:05] [Server thread/INFO]: [TreeFella] Loading server plugin TreeFella v1.2
+[13:11:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:11:05] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:11:05] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:11:05] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:11:05] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:11:05] [Server thread/INFO]: Preparing level "world"
+[13:11:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:11:06] [Server thread/INFO]: Time elapsed: 4 ms
+[13:11:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:11:06] [Server thread/INFO]: Time elapsed: 0 ms
+[13:11:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:11:06] [Server thread/INFO]: Time elapsed: 0 ms
+[13:11:06] [Server thread/INFO]: [Coordinates] Enabling Coordinates v0.2.2
+[13:11:06] [Server thread/INFO]: [Coordinates] Coordinates plugin has been enabled
+[13:11:06] [Server thread/INFO]: [InstantRestock] Enabling InstantRestock v2.5.1
+[13:11:09] [Server thread/INFO]: [InfiniteVillagerTrades] Enabled InstantRestock!
+[13:11:09] [Server thread/INFO]: [CleanPing] Enabling CleanPing v1.6.1
+[13:11:09] [Server thread/INFO]: [CleanPing] 
    ___ _                 ___ _           
   / __| |___ __ _ _ _   | _ (_)_ _  __ _ 
  | (__| / -_) _` | ' \  |  _/ | ' \/ _` |
   \___|_\___\__,_|_||_| |_| |_|_||_\__, |
                                    |___/ 
 
-[09:55:26] [Server thread/INFO]: [CleanPing] Server version: 1.20.6-R0.1-SNAPSHOT
-[09:55:26] [Server thread/INFO]: [CleanPing] Loading configuration...
-[09:55:26] [Server thread/INFO]: [CleanPing] Loading commands...
-[09:55:26] [Server thread/INFO]: [CleanPing] Metrics loaded successfully!
-[09:55:26] [Server thread/INFO]: [CleanPing] Plugin successfully loaded!
-[09:55:26] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[09:55:26] [Folia Async Scheduler Thread #0/INFO]: [InfiniteVillagerTrades] A new update is available!
-[09:55:26] [Folia Async Scheduler Thread #0/INFO]: [https://modrinth.com/plugin/infinite-villager-trading]
-[09:55:27] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[09:55:27] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[09:55:27] [Server thread/INFO]: [TreeFella] Enabling TreeFella v1.2
-[09:55:27] [Server thread/INFO]: Running delayed init tasks
-[09:55:27] [Server thread/INFO]: Done (6.218s)! For help, type "help"
-[09:55:27] [Server thread/INFO]: Timings Reset
-[09:55:29] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: for-arthur.joinmc.link
-[09:55:29] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
-[09:55:29] [Thread-7/INFO]: playit.gg: tunnel setup
-[09:55:29] [Thread-7/INFO]: playit.gg: for-arthur.joinmc.link
-[09:55:29] [Thread-7/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:840:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
-[09:55:30] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[09:55:56] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51637, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -55, -75, 70, -2, 13, -64, -89, 8, 104, 20, -106, -84, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 85, -64, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 120, -49, 105, -109, -29, 41, 112, -88, 93, 23, 43, -16, 112, 118, -22, 17], tunnelServerId=1, dataCenterId=28}
-[09:55:56] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[09:55:56] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[09:55:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[09:55:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[09:55:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[09:55:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[09:55:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[09:55:56] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[09:55:56] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[09:55:59] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51639, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -55, -73, -50, 103, -10, -2, -89, 8, 104, 20, -106, -81, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 111, -2, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 12, -88, -67, 107, 31, -13, -67, 43, 21, 123, 86, 13, -123, 84, -48, -82], tunnelServerId=1, dataCenterId=28}
-[09:55:59] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[09:55:59] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[09:55:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[09:55:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[09:55:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[09:55:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[09:55:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[09:55:59] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[09:55:59] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[09:56:00] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51646, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -55, -66, 105, -81, 107, -35, -89, 8, 104, 20, -106, -80, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 82, -35, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 87, -90, -104, -77, 70, 15, 27, -65, 76, -6, -19, 77, -121, -117, 71, 34], tunnelServerId=1, dataCenterId=28}
-[09:56:00] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[09:56:00] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[09:56:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[09:56:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[09:56:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[09:56:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[09:56:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[09:56:00] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[09:56:00] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[09:56:00] [User Authenticator #0/INFO]: UUID of player R1DERG4MER is 4e00e74a-ded6-362c-8dc2-0830e33ed879
-[09:56:01] [Server thread/INFO]: R1DERG4MER joined the game
-[09:56:01] [Server thread/INFO]: R1DERG4MER[/127.0.0.1:45240] logged in with entity id 1 at ([world]-105.5, 63.0, -52.5)
-[09:59:30] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[09:59:51] [Server thread/INFO]: Made R1DERG4MER a server operator
-[09:59:57] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode spectator
-[09:59:57] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Spectator Mode]
-[09:59:59] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode survival
-[09:59:59] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Survival Mode]
-[10:00:01] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode creative
-[10:00:01] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Creative Mode]
-[10:00:22] [Async Chat Thread - #0/INFO]: [Not Secure] <R1DERG4MER> -509
-[10:00:28] [Async Chat Thread - #0/INFO]: [Not Secure] <R1DERG4MER> 137
-[10:00:33] [Async Chat Thread - #0/INFO]: [Not Secure] <R1DERG4MER> -548
-[10:00:35] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode survival
-[10:00:35] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Survival Mode]
-[10:00:48] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode creative
-[10:00:48] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Creative Mode]
-[10:01:06] [Server thread/INFO]: R1DERG4MER issued server command: /fill -387 -61 -257 -509 137 -548 minecraft:air
-[10:01:09] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51773, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -54, 61, -49, 13, -60, 42, -89, 8, 104, 20, -105, -27, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, -99, 42, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 103, -3, 60, -14, -128, 120, 73, -37, -43, -47, 13, 24, -29, -83, 54, 48], tunnelServerId=1, dataCenterId=28}
-[10:01:09] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:01:09] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:01:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:01:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:01:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:01:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:01:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:01:09] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:01:09] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:01:09] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51775, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -54, 63, -119, 28, -57, -106, -89, 8, 104, 20, -105, -27, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, -34, -106, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -11, 22, -33, 110, 77, 53, -42, -128, -79, 72, 32, -101, 55, -89, -9, 96], tunnelServerId=1, dataCenterId=28}
-[10:01:09] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:01:09] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:01:09] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:01:09] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:01:09] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:01:09] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:01:09] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:01:09] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:01:09] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:01:09] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[10:01:10] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51785, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -54, 73, 38, 5, 25, 62, -89, 8, 104, 20, -105, -26, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 102, 62, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 46, 11, 116, -60, 33, -90, -45, -8, 14, -68, 94, -28, 119, 73, 19, -108], tunnelServerId=1, dataCenterId=28}
-[10:01:10] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:01:10] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:01:10] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:01:10] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:01:10] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:01:10] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:01:10] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:01:10] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:01:10] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:01:10] [User Authenticator #1/INFO]: UUID of player R1DERG4MER is 4e00e74a-ded6-362c-8dc2-0830e33ed879
-[10:01:16] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:01:16] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[10:01:16] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:16] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:01:16] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:16] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:01:16] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:01:16] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$SetIterator.next(ObjectOpenHashSet.java:577)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.sendBlockUpdated(ServerLevel.java:1875)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1012)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:01:16] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:01:16] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:16] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:01:16] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:19] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51790, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -54, 78, -80, 36, 97, -48, -89, 8, 104, 20, -105, -17, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, -88, -48, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -102, -57, 12, 89, -100, -34, -105, -12, 67, 114, -104, -29, -102, -10, 103, 74], tunnelServerId=1, dataCenterId=28}
-[10:01:19] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:01:19] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:01:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:01:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:01:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:01:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:01:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:01:19] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:01:19] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:01:19] [User Authenticator #1/INFO]: UUID of player R1DERG4MER is 4e00e74a-ded6-362c-8dc2-0830e33ed879
-[10:01:21] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:01:21] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[10:01:21] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:21] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:01:21] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:21] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:01:21] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:01:21] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:941)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:01:21] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:01:21] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:21] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:01:21] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:26] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:01:26] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
-[10:01:26] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:26] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:01:26] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:26] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:01:26] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:01:26] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$SetIterator.next(ObjectOpenHashSet.java:577)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.sendBlockUpdated(ServerLevel.java:1875)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1012)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:01:26] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:01:26] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:26] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:01:26] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:31] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:01:31] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
-[10:01:31] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:31] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:01:31] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:31] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:01:31] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:01:31] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$SetIterator.next(ObjectOpenHashSet.java:577)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.sendBlockUpdated(ServerLevel.java:1875)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1012)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:01:31] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:01:31] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:31] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:01:31] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:36] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:01:36] [Paper Watchdog Thread/ERROR]: The server has not responded for 30 seconds! Creating thread dump
-[10:01:36] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:36] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:01:36] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:36] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:01:36] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:01:36] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getBlockEntity(Level.java:1429)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getBlockEntity(Level.java:1417)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:170)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:01:36] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:01:36] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:36] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:01:36] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:41] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:01:41] [Paper Watchdog Thread/ERROR]: The server has not responded for 35 seconds! Creating thread dump
-[10:01:41] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:41] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:01:41] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:41] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:01:41] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:01:41] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.objects.ObjectOpenCustomHashSet.add(ObjectOpenCustomHashSet.java:285)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.ticks.LevelChunkTicks.schedule(LevelChunkTicks.java:75)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.ticks.LevelTicks.schedule(LevelTicks.java:79)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.LevelAccessor.scheduleTick(LevelAccessor.java:54)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.FallingBlock.updateShape(FallingBlock.java:34)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.updateShape(BlockBehaviour.java:1252)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.NeighborUpdater.executeShapeUpdate(NeighborUpdater.java:48)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater$ShapeUpdate.runNext(CollectingNeighborUpdater.java:152)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.runUpdates(CollectingNeighborUpdater.java:80)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.addAndRun(CollectingNeighborUpdater.java:65)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.shapeUpdate(CollectingNeighborUpdater.java:30)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.neighborShapeChanged(Level.java:1132)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.updateNeighbourShapes(BlockBehaviour.java:1179)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1042)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:01:41] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:01:41] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:41] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:01:41] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:46] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:01:46] [Paper Watchdog Thread/ERROR]: The server has not responded for 40 seconds! Creating thread dump
-[10:01:46] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:46] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:01:46] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:46] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:01:46] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:01:46] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.PalettedContainer.get(PalettedContainer.java:221)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.LevelChunk.getBlockStateFinal(LevelChunk.java:313)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.LevelChunk.getBlockState(LevelChunk.java:318)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getBlockState(Level.java:1172)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.Block.updateFromNeighbourShapes(Block.java:187)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:62)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:01:46] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:01:46] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:46] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:01:46] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:51] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:01:51] [Paper Watchdog Thread/ERROR]: The server has not responded for 45 seconds! Creating thread dump
-[10:01:51] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:51] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:01:51] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:51] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:01:51] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:01:51] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$SetIterator.next(ObjectOpenHashSet.java:577)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.sendBlockUpdated(ServerLevel.java:1875)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1012)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:01:51] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:01:51] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:51] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:01:51] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:54] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51805, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -54, 93, -18, 90, 102, -58, -89, 8, 104, 20, -104, 18, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 0, -58, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, -104, 19, 13, 93, -102, 72, -81, -84, 98, -94, 85, -68, 102, 118, 15], tunnelServerId=1, dataCenterId=28}
-[10:01:54] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:01:54] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:01:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:01:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:01:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:01:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:01:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:01:54] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:01:54] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:01:54] [User Authenticator #1/INFO]: UUID of player R1DERG4MER is 4e00e74a-ded6-362c-8dc2-0830e33ed879
-[10:01:56] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:01:56] [Paper Watchdog Thread/ERROR]: The server has not responded for 50 seconds! Creating thread dump
-[10:01:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:56] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:01:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:56] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:01:56] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:01:56] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:45)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:131)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:627)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		org.bukkit.event.Event.callEvent(Event.java:45)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater$MultiNeighborUpdate.runNext(CollectingNeighborUpdater.java:129)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.runUpdates(CollectingNeighborUpdater.java:80)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.addAndRun(CollectingNeighborUpdater.java:65)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing(CollectingNeighborUpdater.java:47)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.updateNeighborsAt(ServerLevel.java:1911)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.blockUpdated(ServerLevel.java:2484)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:182)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:01:56] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:01:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:56] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:01:56] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:01:58] [Server thread/INFO]: [R1DERG4MER: Successfully filled 5281719 block(s)]
-[10:01:58] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 52288ms or 1045 ticks behind
-[10:01:59] [Server thread/INFO]: R1DERG4MER lost connection: Timed out
-[10:01:59] [Server thread/INFO]: R1DERG4MER left the game
-[10:01:59] [Server thread/INFO]: R1DERG4MER (/127.0.0.1:55708) lost connection: Timed out
-[10:01:59] [Server thread/INFO]: R1DERG4MER (/127.0.0.1:46412) lost connection: Timed out
-[10:01:59] [Server thread/INFO]: R1DERG4MER joined the game
-[10:01:59] [Server thread/INFO]: R1DERG4MER[/127.0.0.1:45654] logged in with entity id 6230 at ([world]-386.5965019575411, -60.07840000152588, -256.30000001192093)
-[10:02:05] [Server thread/INFO]: Villager Villager['Villager'/2337, uuid='30c5b9b4-9b10-465c-90ad-ff615997daaa', l='ServerLevel[world]', x=-458.53, y=-61.00, z=-290.54, cpos=[-29, -19], tl=1248120, v=true] died, message: 'Villager hit the ground too hard'
-[10:02:16] [Server thread/INFO]: Villager Villager['Weaponsmith'/2344, uuid='b4e7ca5f-2307-43a3-a112-323cf9a397a9', l='ServerLevel[world]', x=-469.09, y=-61.00, z=-313.49, cpos=[-30, -20], tl=1245654, v=true] died, message: 'Weaponsmith hit the ground too hard'
-[10:02:16] [Server thread/INFO]: Villager Villager['Villager'/2345, uuid='1798e7e2-b84b-4e6c-91cf-fd8633e8277f', l='ServerLevel[world]', x=-469.70, y=-61.00, z=-313.36, cpos=[-30, -20], tl=1344510, v=true] died, message: 'Villager hit the ground too hard'
-[10:02:27] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode survival
-[10:02:27] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Survival Mode]
-[10:02:31] [Server thread/INFO]: Villager Villager['Nitwit'/2305, uuid='ce35d3de-7c8e-43d0-b780-95a7c0ad53aa', l='ServerLevel[world]', x=-454.94, y=-61.00, z=-286.20, cpos=[-29, -18], tl=1446028, v=true] died, message: 'Nitwit hit the ground too hard'
-[10:02:31] [Server thread/INFO]: Villager Villager['Villager'/2304, uuid='4537aabf-59e6-4c88-afc9-d9fc0c559daf', l='ServerLevel[world]', x=-454.30, y=-61.00, z=-286.70, cpos=[-29, -18], tl=1418950, v=true] died, message: 'Villager hit the ground too hard'
-[10:02:32] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode creative
-[10:02:32] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Creative Mode]
-[10:02:57] [Async Chat Thread - #2/INFO]: [Not Secure] <R1DERG4MER> -510
-[10:03:00] [Async Chat Thread - #2/INFO]: [Not Secure] <R1DERG4MER> 132
-[10:03:04] [Async Chat Thread - #2/INFO]: [Not Secure] <R1DERG4MER> -632
-[10:03:05] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode survival
-[10:03:05] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Survival Mode]
-[10:03:20] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode creative
-[10:03:20] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Creative Mode]
-[10:03:30] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[10:03:39] [Server thread/INFO]: R1DERG4MER issued server command: /fill -70 -61 -548 -510 132 -632 minecraft:air
-[10:03:42] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51858, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -54, -110, 59, -8, -72, 82, -89, 8, 104, 20, -104, 126, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, -123, 82, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 55, 44, -68, -16, -32, 117, -98, 78, -40, 24, 19, -105, -25, -106, 60, -47], tunnelServerId=1, dataCenterId=28}
-[10:03:42] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:03:42] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:03:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:03:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:03:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:03:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:03:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:03:42] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:03:42] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:03:42] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51866, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -54, -102, 68, 20, -78, -125, -89, 8, 104, 20, -104, 126, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 25, -125, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -3, -21, -78, -105, -59, -67, 26, -22, 70, -39, -79, -30, -3, -93, 45, -31], tunnelServerId=1, dataCenterId=28}
-[10:03:42] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:03:42] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:03:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:03:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:03:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:03:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:03:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:03:42] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:03:42] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:03:44] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51874, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -54, -94, -105, -24, -26, 99, -89, 8, 104, 20, -104, -128, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, -85, 99, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 58, -47, -20, 5, 125, 70, 94, 21, 74, 22, 89, -46, 4, 46, -87, -19], tunnelServerId=1, dataCenterId=28}
-[10:03:44] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:03:44] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:03:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:03:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:03:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:03:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:03:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:03:44] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:03:44] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:03:44] [User Authenticator #2/INFO]: UUID of player R1DERG4MER is 4e00e74a-ded6-362c-8dc2-0830e33ed879
-[10:03:49] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:03:49] [Paper Watchdog Thread/ERROR]: The server has not responded for 10 seconds! Creating thread dump
-[10:03:49] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:03:49] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:03:49] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:03:49] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:03:49] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:03:49] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.queue.RadiusAwarePrioritisedExecutor$DependencyTree.pushNode(RadiusAwarePrioritisedExecutor.java:205)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.queue.RadiusAwarePrioritisedExecutor.queue(RadiusAwarePrioritisedExecutor.java:69)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.scheduling.queue.RadiusAwarePrioritisedExecutor$Task.queue(RadiusAwarePrioritisedExecutor.java:481)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.light.LightQueue$ChunkTasks.schedule(LightQueue.java:211)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.light.LightQueue.queueBlockChange(LightQueue.java:91)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.starlight.common.light.StarLightInterface.blockChange(StarLightInterface.java:390)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ThreadedLevelLightEngine.lambda$checkBlock$6(ThreadedLevelLightEngine.java:218)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ThreadedLevelLightEngine$$Lambda/0x00007e35755725d8.get(Unknown Source)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ThreadedLevelLightEngine.queueTaskForSection(ThreadedLevelLightEngine.java:147)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ThreadedLevelLightEngine.checkBlock(ThreadedLevelLightEngine.java:217)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.LevelChunk.setBlockState(LevelChunk.java:449)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:941)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:03:49] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:03:49] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:03:49] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:03:49] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:03:54] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:03:54] [Paper Watchdog Thread/ERROR]: The server has not responded for 15 seconds! Creating thread dump
-[10:03:54] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:03:54] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:03:54] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:03:54] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:03:54] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:03:54] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$SetIterator.next(ObjectOpenHashSet.java:577)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.sendBlockUpdated(ServerLevel.java:1875)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1012)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:03:54] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:03:54] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:03:54] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:03:54] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:03:59] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:03:59] [Paper Watchdog Thread/ERROR]: The server has not responded for 20 seconds! Creating thread dump
-[10:03:59] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:03:59] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:03:59] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:03:59] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:03:59] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:03:59] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.util.HashMap.hash(HashMap.java:338)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.util.HashMap.put(HashMap.java:618)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.util.HashSet.add(HashSet.java:229)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		io.papermc.paper.chunk.system.light.LightQueue.queueBlockChange(LightQueue.java:88)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.starlight.common.light.StarLightInterface.blockChange(StarLightInterface.java:390)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ThreadedLevelLightEngine.lambda$checkBlock$6(ThreadedLevelLightEngine.java:218)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ThreadedLevelLightEngine$$Lambda/0x00007e35755725d8.get(Unknown Source)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ThreadedLevelLightEngine.queueTaskForSection(ThreadedLevelLightEngine.java:147)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ThreadedLevelLightEngine.checkBlock(ThreadedLevelLightEngine.java:217)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.LevelChunk.setBlockState(LevelChunk.java:449)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:941)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:03:59] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:03:59] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:03:59] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:03:59] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51889, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -54, -79, 41, -39, -85, -53, -89, 8, 104, 20, -104, -109, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, -90, -53, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 28, 59, -72, -22, 1, 43, 100, -32, 76, 111, 67, 75, 56, 112, 87, 22], tunnelServerId=1, dataCenterId=28}
-[10:04:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:04:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:04:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:04:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:04:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:04:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:04:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:04:03] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:04:03] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:04:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51896, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -54, -72, 34, -25, 51, -38, -89, 8, 104, 20, -104, -109, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 2, -38, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 56, -82, 84, 124, 107, -30, 59, 17, -125, -97, -18, -92, 10, -5, -21, -35], tunnelServerId=1, dataCenterId=28}
-[10:04:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:04:03] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:04:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:04:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:04:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:04:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:04:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:04:03] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:04:03] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:04:04] [User Authenticator #2/INFO]: UUID of player R1DERG4MER is 4e00e74a-ded6-362c-8dc2-0830e33ed879
-[10:04:04] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:04:04] [Paper Watchdog Thread/ERROR]: The server has not responded for 25 seconds! Creating thread dump
-[10:04:04] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:04] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:04:04] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:04] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:04:04] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:04:04] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.PalettedContainer.get(PalettedContainer.java:221)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.LevelChunk.getBlockStateFinal(LevelChunk.java:313)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.chunk.LevelChunk.getBlockState(LevelChunk.java:318)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.getBlockState(Level.java:1172)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.NeighborUpdater.executeShapeUpdate(NeighborUpdater.java:47)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater$ShapeUpdate.runNext(CollectingNeighborUpdater.java:152)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.runUpdates(CollectingNeighborUpdater.java:80)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.addAndRun(CollectingNeighborUpdater.java:65)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.redstone.CollectingNeighborUpdater.shapeUpdate(CollectingNeighborUpdater.java:30)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.neighborShapeChanged(Level.java:1132)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.updateNeighbourShapes(BlockBehaviour.java:1179)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1042)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:04:04] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:04:04] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:04] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:04:04] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:09] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:04:09] [Paper Watchdog Thread/ERROR]: The server has not responded for 30 seconds! Creating thread dump
-[10:04:09] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:09] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:04:09] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:09] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:04:09] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:04:09] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$SetIterator.next(ObjectOpenHashSet.java:577)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.sendBlockUpdated(ServerLevel.java:1875)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1012)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:04:09] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:04:09] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:09] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:04:09] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:11] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[10:04:11] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[10:04:14] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:04:14] [Paper Watchdog Thread/ERROR]: The server has not responded for 35 seconds! Creating thread dump
-[10:04:14] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:14] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:04:14] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:14] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:04:14] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:04:14] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.ai.navigation.PathNavigation.shouldRecomputePath(PathNavigation.java:443)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.sendBlockUpdated(ServerLevel.java:1886)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1012)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:04:14] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:04:14] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:14] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:04:14] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:15] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51901, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -54, -67, 23, 24, 41, 17, -89, 8, 104, 20, -104, -97, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 105, 17, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -64, -106, -73, -53, -40, 105, -18, -120, -11, 94, -128, -4, -19, -56, 60, 109], tunnelServerId=1, dataCenterId=28}
-[10:04:15] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:04:15] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:04:15] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:04:15] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:04:15] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:04:15] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:04:15] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:04:15] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:04:15] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:04:16] [User Authenticator #2/INFO]: UUID of player R1DERG4MER is 4e00e74a-ded6-362c-8dc2-0830e33ed879
-[10:04:19] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:04:19] [Paper Watchdog Thread/ERROR]: The server has not responded for 40 seconds! Creating thread dump
-[10:04:19] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:19] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:04:19] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:19] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:04:19] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:04:19] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.ai.navigation.PathNavigation.shouldRecomputePath(PathNavigation.java:443)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.sendBlockUpdated(ServerLevel.java:1886)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1012)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:04:19] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:04:19] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:19] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:04:19] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:24] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:04:24] [Paper Watchdog Thread/ERROR]: The server has not responded for 45 seconds! Creating thread dump
-[10:04:24] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:24] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:04:24] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:24] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:04:24] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:04:24] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		it.unimi.dsi.fastutil.objects.ObjectOpenHashSet$SetIterator.next(ObjectOpenHashSet.java:577)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.sendBlockUpdated(ServerLevel.java:1875)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1012)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:04:24] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:04:24] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:24] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:04:24] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:29] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH  - git-Paper-23 (MC: 1.20.6) ---
-[10:04:29] [Paper Watchdog Thread/ERROR]: The server has not responded for 50 seconds! Creating thread dump
-[10:04:29] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:29] [Paper Watchdog Thread/ERROR]: Server thread dump (Look for plugins here before reporting to Paper!):
-[10:04:29] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:29] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
-[10:04:29] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: RUNNABLE
-[10:04:29] [Paper Watchdog Thread/ERROR]: 	Stack:
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.entity.ai.navigation.PathNavigation.shouldRecomputePath(PathNavigation.java:443)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.level.ServerLevel.sendBlockUpdated(ServerLevel.java:1886)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.notifyAndUpdatePhysics(Level.java:1012)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:988)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.world.level.Level.setBlock(Level.java:902)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.arguments.blocks.BlockInput.place(BlockInput.java:67)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.fillBlocks(FillCommand.java:172)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand.lambda$register$2(FillCommand.java:49)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.commands.FillCommand$$Lambda/0x00007e3574b3a3d8.run(Unknown Source)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.UnboundEntryAction$$Lambda/0x00007e3575645710.execute(Unknown Source)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.executeCommandInContext(Commands.java:429)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:337)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.commands.Commands.performCommand(Commands.java:324)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2200)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2176)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.network.ServerGamePacketListenerImpl$$Lambda/0x00007e35756474b8.run(Unknown Source)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.TickTask.run(TickTask.java:18)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1515)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:198)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1492)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1415)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1381)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1242)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:326)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda/0x00007e3574bd11a8.run(Unknown Source)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.runWith(Thread.java:1596)
-[10:04:29] [Paper Watchdog Thread/ERROR]: 		java.base@21.0.6/java.lang.Thread.run(Thread.java:1583)
-[10:04:29] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:29] [Paper Watchdog Thread/ERROR]: --- DO NOT REPORT THIS TO PAPER - THIS IS NOT A BUG OR A CRASH ---
-[10:04:29] [Paper Watchdog Thread/ERROR]: ------------------------------
-[10:04:33] [Server thread/INFO]: [R1DERG4MER: Successfully filled 4841613 block(s)]
-[10:04:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 53351ms or 1067 ticks behind
-[10:04:33] [Server thread/INFO]: R1DERG4MER lost connection: Disconnected
-[10:04:33] [Server thread/INFO]: R1DERG4MER left the game
-[10:04:33] [Server thread/INFO]: R1DERG4MER (/127.0.0.1:48300) lost connection: Timed out
-[10:04:33] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[10:04:33] [Server thread/INFO]: R1DERG4MER (/127.0.0.1:39206) lost connection: Disconnected
-[10:04:33] [Server thread/INFO]: R1DERG4MER joined the game
-[10:04:33] [Server thread/INFO]: R1DERG4MER[/127.0.0.1:39992] logged in with entity id 8627 at ([world]-69.38999434379762, -60.07840000152588, -547.5183652728733)
-[10:05:13] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode survival
-[10:05:13] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Survival Mode]
-[10:07:08] [Async Chat Thread - #4/INFO]: [Not Secure] <R1DERG4MER> -217
-[10:07:15] [Async Chat Thread - #4/INFO]: [Not Secure] <R1DERG4MER> -61
-[10:07:20] [Async Chat Thread - #4/INFO]: [Not Secure] <R1DERG4MER> -359
-[10:07:31] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[10:07:43] [Server thread/INFO]: R1DERG4MER issued server command: /fill -223 -62 -347 -217 -61 -359 minecraft:blackstone_slab
-[10:07:43] [Server thread/INFO]: [R1DERG4MER: Successfully filled 182 block(s)]
-[10:07:51] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode creative
-[10:07:51] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Creative Mode]
-[10:08:13] [Async Chat Thread - #4/INFO]: [Not Secure] <R1DERG4MER> -70 -61
-[10:08:17] [Async Chat Thread - #4/INFO]: [Not Secure] <R1DERG4MER> -257
-[10:08:19] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode survival
-[10:08:19] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Survival Mode]
-[10:08:27] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode creative
-[10:08:27] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Creative Mode]
-[10:09:14] [Server thread/INFO]: R1DERG4MER issued server command: /fill -510 -61 -632 -70 -61 -257 minecraft:cobbled_deepslate_slab
-[10:09:15] [Server thread/INFO]: [R1DERG4MER: Successfully filled 165816 block(s)]
-[10:09:15] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode survival
-[10:09:15] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Survival Mode]
-[10:09:18] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode creative
-[10:09:18] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Creative Mode]
-[10:09:40] [Server thread/INFO]: R1DERG4MER issued server command: /gamemode survival
-[10:09:40] [Server thread/INFO]: [R1DERG4MER: Set own game mode to Survival Mode]
-[10:09:52] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[10:09:52] [Server thread/INFO]: R1DERG4MER lost connection: Disconnected
-[10:09:52] [Server thread/INFO]: R1DERG4MER left the game
-[10:09:52] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:52032, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -53, 64, 101, 78, -124, -54, -89, 8, 104, 20, -103, -16, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 8, -54, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 7, 11, -68, 70, 40, -12, 124, -89, 112, 119, -28, 117, -87, 57, 94, 78], tunnelServerId=1, dataCenterId=28}
-[10:09:52] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[10:09:52] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
-[10:09:52] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[10:09:52] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[10:09:52] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[10:09:52] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
-[10:09:52] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
-[10:09:52] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
-[10:09:52] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[10:10:02] [Server thread/INFO]: Stopping the server
-[10:10:02] [Server thread/INFO]: Stopping server
-[10:10:02] [Server thread/INFO]: [TreeFella] Disabling TreeFella v1.2
-[10:10:02] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
-[10:10:02] [Server thread/INFO]: [CleanPing] Disabling CleanPing v1.6.1
-[10:10:02] [Server thread/INFO]: [CleanPing] Clearing instances...
-[10:10:02] [Server thread/INFO]: [CleanPing] Plugin successfully disabled!
-[10:10:02] [Server thread/INFO]: [InstantRestock] Disabling InstantRestock v2.5.1
-[10:10:02] [Server thread/INFO]: [Coordinates] Disabling Coordinates v0.2.2
-[10:10:02] [Server thread/INFO]: [Coordinates] Coordinates plugin has been disabled
-[10:10:02] [Server thread/INFO]: Saving players
-[10:10:02] [Server thread/INFO]: Saving worlds
-[10:10:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:10:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[10:10:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[10:10:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[10:10:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
-[10:10:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:10:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[10:10:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[10:10:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[10:10:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[10:10:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[10:10:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:10:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[10:10:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[10:10:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[10:10:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[10:10:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[10:10:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:10:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:10:03] [Server thread/INFO]: Flushing Chunk IO
-[10:10:03] [Server thread/INFO]: Closing Thread Pool
-[10:10:03] [Server thread/INFO]: Closing Server
+[13:11:09] [Server thread/INFO]: [CleanPing] Server version: 1.20.6-R0.1-SNAPSHOT
+[13:11:09] [Server thread/INFO]: [CleanPing] Loading configuration...
+[13:11:09] [Server thread/INFO]: [CleanPing] Loading commands...
+[13:11:09] [Server thread/INFO]: [CleanPing] Metrics loaded successfully!
+[13:11:09] [Server thread/INFO]: [CleanPing] Plugin successfully loaded!
+[13:11:09] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[13:11:09] [Folia Async Scheduler Thread #0/INFO]: [InfiniteVillagerTrades] A new update is available!
+[13:11:09] [Folia Async Scheduler Thread #0/INFO]: [https://modrinth.com/plugin/infinite-villager-trading]
+[13:11:11] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[13:11:11] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[13:11:11] [Server thread/INFO]: [TreeFella] Enabling TreeFella v1.2
+[13:11:11] [Server thread/INFO]: Running delayed init tasks
+[13:11:11] [Server thread/INFO]: Done (7.898s)! For help, type "help"
+[13:11:11] [Server thread/INFO]: Timings Reset
+[13:11:13] [Thread-7/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: for-arthur.joinmc.link
+[13:11:13] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[13:11:13] [Thread-7/INFO]: playit.gg: tunnel setup
+[13:11:13] [Thread-7/INFO]: playit.gg: for-arthur.joinmc.link
+[13:11:13] [Thread-7/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:840:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[13:11:14] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[13:11:37] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51049, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -57, 105, -114, -116, 16, 7, -89, 8, 104, 23, 103, -119, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 73, 7, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 55, -90, -71, 39, 6, -84, -103, 116, 76, -126, 67, 95, 48, -71, 126, -74], tunnelServerId=1, dataCenterId=28}
+[13:11:37] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[13:11:37] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
+[13:11:37] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[13:11:37] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[13:11:37] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[13:11:37] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[13:11:37] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[13:11:37] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[13:11:37] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[13:11:38] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51055, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -57, 111, 1, 33, 82, 22, -89, 8, 104, 23, 103, -118, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 18, 22, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 91, -122, -3, -29, -28, -118, -11, -49, 116, 117, -41, 72, 111, 93, -84, 89], tunnelServerId=1, dataCenterId=28}
+[13:11:38] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[13:11:38] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
+[13:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[13:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[13:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[13:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[13:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[13:11:38] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[13:11:38] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[13:11:39] [User Authenticator #0/INFO]: UUID of player R1DERG4MER is 4e00e74a-ded6-362c-8dc2-0830e33ed879
+[13:11:40] [Server thread/INFO]: R1DERG4MER joined the game
+[13:11:40] [Server thread/INFO]: R1DERG4MER[/127.0.0.1:48592] logged in with entity id 1 at ([world]-197.40514115457836, 64.0, -24.81802087554228)
+[13:15:15] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:19:15] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:23:16] [Thread-7/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[13:24:04] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[13:24:04] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[13:24:04] [Server thread/INFO]: R1DERG4MER lost connection: Disconnected
+[13:24:04] [Server thread/INFO]: R1DERG4MER left the game
+[13:24:05] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.194:48125, peerAddr=103.157.168.3:51348, claimAddress=209.25.143.2:42760, claimToken=[44, 0, 60, -109, -71, -35, -62, -69, -3, 103, -99, -88, 3, -56, -108, -80, 113, -11, 17, -89, 8, 104, 23, 106, 117, 0, 0, 0, 0, 0, 17, -84, -87, 0, 0, 0, 0, 0, 65, 48, -122, 30, 17, -89, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 52, -122, -95, 110, 104, -126, 104, 48, 46, -89, -53, 59, -127, 126, 5, 81], tunnelServerId=1, dataCenterId=28}
+[13:24:05] [Thread-7/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[13:24:05] [Thread-7/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:42760 to claim client
+[13:24:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[13:24:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[13:24:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[13:24:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnectionListener, LegacyPingHandler=class net.minecraft.server.network.LegacyQueryHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.Varint21FrameDecoder, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.PacketFlow, PacketPrepender=class net.minecraft.network.Varint21LengthFieldPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.RateKickingConnection, NetworkManager=class net.minecraft.network.Connection, HandshakeListener=class net.minecraft.server.network.ServerHandshakePacketListenerImpl, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=class org.bukkit.craftbukkit.CraftServer}
+[13:24:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] legacyPingHandler is null
+[13:24:05] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[13:24:05] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[13:24:12] [Server thread/INFO]: Stopping the server
+[13:24:12] [Server thread/INFO]: Stopping server
+[13:24:12] [Server thread/INFO]: [TreeFella] Disabling TreeFella v1.2
+[13:24:12] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[13:24:12] [Server thread/INFO]: [CleanPing] Disabling CleanPing v1.6.1
+[13:24:12] [Server thread/INFO]: [CleanPing] Clearing instances...
+[13:24:12] [Server thread/INFO]: [CleanPing] Plugin successfully disabled!
+[13:24:12] [Server thread/INFO]: [InstantRestock] Disabling InstantRestock v2.5.1
+[13:24:12] [Server thread/INFO]: [Coordinates] Disabling Coordinates v0.2.2
+[13:24:12] [Server thread/INFO]: [Coordinates] Coordinates plugin has been disabled
+[13:24:12] [Server thread/INFO]: Saving players
+[13:24:12] [Server thread/INFO]: Saving worlds
+[13:24:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.00s
+[13:24:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:24:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[13:24:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:24:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[13:24:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[13:24:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:24:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:24:12] [Server thread/INFO]: Flushing Chunk IO
+[13:24:12] [Server thread/INFO]: Closing Thread Pool
+[13:24:12] [Server thread/INFO]: Closing Server
