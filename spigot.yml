@@ -23,6 +23,7 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    unload-frozen-chunks: false
     below-zero-generation-in-existing-chunks: true
     entity-tracking-range:
       players: 48
@@ -150,6 +151,7 @@ commands:
   - summon
   - testforblock
   - tellraw
+  enable-spam-exclusions: false
 settings:
   player-shuffle: 0
   user-cache-size: 1000
@@ -160,6 +162,8 @@ settings:
   restart-script: ./start.sh
   netty-threads: 4
   attribute:
+    maxAbsorption:
+      max: 2048.0
     maxHealth:
       max: 2048.0
     movementSpeed:
